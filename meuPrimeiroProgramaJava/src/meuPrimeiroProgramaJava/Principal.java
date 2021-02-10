@@ -35,6 +35,7 @@ public class Principal { // Classe que contém o metodo principal.
 		System.out.printf("%d! Puxa! Como você é jovem!", idade);
 		
 		// Nota: Implementar sobrenome.
+		// Sobrenome ainda n�o foi incluido
 	}
 
 }
