@@ -14,21 +14,25 @@ import java.util.Scanner;
  * Data: 03/02/2021
  *
  */
-public class Principal { //Classe que cont√©m o m√©todo principal.
+public class Principal { // Classe que contÈm o metodo principal.
 	public static void main(String[] args) {
 		
-		//Salda√ß√£o e pergunta o nome.
-		System.out.println("Hello Word!\nQual √© o seu nome?"); // Uso do println
+		// SaldaÁ„o e pergunta o nome.
+		System.out.println("Hello Word!\nQual o seu nome?"); // Uso do println
 		
 		// Ler o nome.		
 		Scanner in = new Scanner(System.in);
 		String nome = in.nextLine();
 		
-		// Salda√ß√£o espec√≠fica para o nome lido.		
-		System.out.printf("Ol√° %s!\n", nome);
-		in.close();	
+		// SaldaÁ„o especifica para o nome lido.		
+		System.out.printf("Ol· %s!\n", nome);			
 		
-		//NOTA: Implementar leitura da idade e exibi-la.
+		// Perguntar Idade
+		System.out.printf("%s, Qual È a sua idade?", nome);
+		
+		//Ler Idade
+		Integer idade = in.nextInt();
+		System.out.printf("%d! Puxa! Como vocÍ È jovem!", idade);
 	}
 
 }
