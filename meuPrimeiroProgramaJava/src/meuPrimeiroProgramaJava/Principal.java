@@ -34,9 +34,13 @@ public class Principal { // Classe que contÃ©m o metodo principal.
 		Integer idade = in.nextInt();
 		System.out.printf("%d! Puxa! Como vocÃª Ã© jovem!", idade);
 		
-		// Nota: Implementar sobrenome.
-		// Sobrenome ainda não foi incluido
-		// Não Esquecer
+		System.out.printf("%s, Qual o seu sobrenome?", nome);
+		
+		Scanner in1 = new Scanner(System.in);
+		String sobrenome = in1.nextLine();
+		
+		System.out.printf("Seu sobrenome é %s!", sobrenome);		
+
 	}
 
 }
